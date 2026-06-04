@@ -165,5 +165,14 @@
     </footer>
 
     <script src="assets/js/tours.js"></script>
+    <script src="assets/js/hero-rotator.js"></script>
+    <script>
+        // Initialize hero rotator on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            if (typeof initHeroRotator === 'function') {
+                initHeroRotator();
+            }
+        });
+    </script>
 </body>
 </html>
