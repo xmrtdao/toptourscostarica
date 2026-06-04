@@ -10,7 +10,7 @@ const tours = [
         price: "$89",
         rating: 4.9,
         reviews: 2847,
-        image: "https://images.unsplash.com/photo-1518182170546-0766ce6fec56?w=800&h=600&fit=crop",
+        image: "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=800&h=600&fit=crop",
         tiktok_views: "2.3M",
         booking_url: "https://tiktok.com/@toptourscostarica"
     },
@@ -22,7 +22,7 @@ const tours = [
         price: "$75",
         rating: 4.8,
         reviews: 1923,
-        image: "https://images.unsplash.com/photo-1533038590840-1cde6e668a91?w=800&h=600&fit=crop",
+        image: "https://images.unsplash.com/photo-1526778548025-fa224a276614?w=800&h=600&fit=crop",
         tiktok_views: "1.8M",
         booking_url: "https://tiktok.com/@toptourscostarica"
     },
@@ -34,7 +34,7 @@ const tours = [
         price: "$65",
         rating: 4.9,
         reviews: 3156,
-        image: "https://images.unsplash.com/photo-1581464397214-70f66c78481c?w=800&h=600&fit=crop",
+        image: "https://images.unsplash.com/photo-1503094542998-7a1d8a21e71f?w=800&h=600&fit=crop",
         tiktok_views: "3.1M",
         booking_url: "https://tiktok.com/@toptourscostarica"
     },
@@ -58,7 +58,7 @@ const tours = [
         price: "$110",
         rating: 4.8,
         reviews: 987,
-        image: "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=800&h=600&fit=crop",
+        image: "https://images.unsplash.com/photo-1518182170546-0766ce6fec56?w=800&h=600&fit=crop",
         tiktok_views: "756K",
         booking_url: "https://tiktok.com/@toptourscostarica"
     },
