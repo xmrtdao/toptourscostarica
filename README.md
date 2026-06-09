@@ -106,6 +106,28 @@ The site integrates with TikTok via:
 
 ---
 
+## 📸 Assets
+
+All wildlife and tour images are now stored locally in `assets/images/`. The gallery, hero rotator, and tour cards all reference these files — no third-party image hotlinks.
+
+| File | Source | Use |
+|---|---|---|
+| `ttcr-logo.png` | Official brand lockup | Header + footer logo |
+| `scarlet-macaw.jpg` | Real wildlife photo | Hero rotator, tour #1, #2, #5, #7 |
+| `three-toed-sloth.jpg` | Real wildlife photo | Tour #3, #8 (legacy) |
+| `two-toed-sloth.jpg` | Real wildlife photo | Wildlife gallery, tour #4 |
+| `red-eyed-tree-frog-studio.png` | Real wildlife photo | Wildlife gallery, tour #10 |
+| `red-eyed-tree-frog-rainforest.webp` | Real wildlife photo, Dominical | Wildlife gallery |
+| `blue-jeans-frog.jpg` | Real wildlife photo | Wildlife gallery, tour #6 |
+| `tree-frog-portrait.jpg` | Real wildlife photo | Wildlife gallery, tour #9 |
+| `white-water-rafting.jpg` | Real rafting photo | Tour #8 |
+| `tayra-banner.png` | Tayra Wild Eco Tours (partner) | Featured Partner section |
+| `tayra-logo.png` | Tayra Wild Eco Tours (partner) | Reserved (future use) |
+
+> **Note on AI vs. real photos:** An earlier ChatGPT-generated tree frog image was provided but is NOT used on the live site — all gallery images are real wildlife photographs.
+
+---
+
 ## 🌿 Sustainability Commitment
 
 All featured tours are:

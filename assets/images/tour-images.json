@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "1": {
         "tour": "Arenal Volcano & Hot Springs",
         "keywords": "arenal volcano, hot springs, la fortuna",
@@ -60,3 +61,66 @@
         "alt": "Red-eyed tree frog on night walk"
     }
 }
+=======
+  "1": {
+    "tour": "Arenal Volcano & Hot Springs",
+    "keywords": "arenal volcano, hot springs, la fortuna",
+    "best_url": "assets/images/scarlet-macaw.jpg",
+    "alt": "Scarlet macaw near Arenal - real CR wildlife"
+  },
+  "2": {
+    "tour": "Monteverde Cloud Forest Zip Line",
+    "keywords": "zip line, cloud forest, canopy, monteverde",
+    "best_url": "assets/images/scarlet-macaw.jpg",
+    "alt": "Macaw in cloud forest canopy"
+  },
+  "3": {
+    "tour": "Manuel Antonio Wildlife Tour",
+    "keywords": "sloth, monkey, manuel antonio, wildlife",
+    "best_url": "assets/images/three-toed-sloth.jpg",
+    "alt": "Three-toed sloth in Manuel Antonio National Park"
+  },
+  "4": {
+    "tour": "Tortuguero Canal Boat Tour",
+    "keywords": "tortuguero, canal, boat, caiman, costa rica",
+    "best_url": "assets/images/two-toed-sloth.jpg",
+    "alt": "Two-toed sloth along the canal"
+  },
+  "5": {
+    "tour": "Rincon de la Vieja Adventure",
+    "keywords": "rincon de la vieja, volcano, waterfall, guanacaste",
+    "best_url": "assets/images/scarlet-macaw.jpg",
+    "alt": "Scarlet macaw near Rincon de la Vieja"
+  },
+  "6": {
+    "tour": "Corcovado National Park Expedition",
+    "keywords": "corcovado, osa peninsula, rainforest, wildlife",
+    "best_url": "assets/images/blue-jeans-frog.jpg",
+    "alt": "Blue-jeans poison frog in Corcovado"
+  },
+  "7": {
+    "tour": "Pacific Coast Sunset Catamaran",
+    "keywords": "catamaran, sunset, pacific ocean, guanacaste, sailing",
+    "best_url": "assets/images/scarlet-macaw.jpg",
+    "alt": "Scarlet macaw along the Pacific coast"
+  },
+  "8": {
+    "tour": "White Water Rafting - Pacuare River",
+    "keywords": "white water rafting, pacuare river, rapids, costa rica",
+    "best_url": "assets/images/white-water-rafting.jpg",
+    "alt": "White water rafting on Pacuare River"
+  },
+  "9": {
+    "tour": "Coffee & Chocolate Cultural Tour",
+    "keywords": "coffee, chocolate, costa rica, plantation, cultural",
+    "best_url": "assets/images/tree-frog-portrait.jpg",
+    "alt": "Tree frog in the Central Valley coffee highlands"
+  },
+  "10": {
+    "tour": "Night Walk Wildlife Safari",
+    "keywords": "night walk, frog, wildlife, santa elena, nocturnal",
+    "best_url": "assets/images/red-eyed-tree-frog-studio.png",
+    "alt": "Red-eyed tree frog on a night walk"
+  }
+}
+>>>>>>> 7bba6a82f8ca5a68ad0762ea0289fc98b2bf5426

@@ -1,31 +1,32 @@
-// HERO IMAGE ROTATOR - Costa Rica Wildlife
-// Rotates through stunning wildlife images (macaws, sloths, toucans, etc.)
+// HERO IMAGE ROTATOR - Real Costa Rica Wildlife
+// Cycles through actual CR species photos (lapa, sloths, tree frogs)
+// Loaded relative to repo root for GitHub Pages compatibility
 
 const heroImages = [
     {
-        url: "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=1920&h=1080&fit=crop",
-        alt: "Scarlet Macaw in Costa Rica rainforest",
-        credit: "Costa Rica Wildlife"
+        url: "assets/images/scarlet-macaw.jpg",
+        alt: "Scarlet macaw (lapa) in Costa Rica rainforest",
+        credit: "Scarlet Macaw - La Fortuna"
     },
     {
-        url: "https://images.unsplash.com/photo-1511497584788-876760111969?w=1920&h=1080&fit=crop",
-        alt: "Deep rainforest expedition",
-        credit: "Corcovado National Park"
+        url: "assets/images/three-toed-sloth.jpg",
+        alt: "Three-toed sloth in Costa Rica",
+        credit: "Three-Toed Sloth - Manuel Antonio"
     },
     {
-        url: "https://images.unsplash.com/photo-1540946485063-a40da27545f8?w=1920&h=1080&fit=crop",
-        alt: "Pacific Coast sunset",
-        credit: "Guanacaste Coast"
+        url: "assets/images/red-eyed-tree-frog.jpg",
+        alt: "Red-eyed tree frog at night in Costa Rica",
+        credit: "Red-Eyed Tree Frog - Night Walk"
     },
     {
-        url: "https://images.unsplash.com/photo-1533038590840-1cde6e668a91?w=1920&h=1080&fit=crop",
-        alt: "Cloud forest canopy zip line",
-        credit: "Monteverde Cloud Forest"
+        url: "assets/images/blue-jeans-frog.jpg",
+        alt: "Blue jeans poison dart frog in Costa Rica rainforest",
+        credit: "Blue-Jeans Poison Frog - Osa Peninsula"
     },
     {
-        url: "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=1920&h=1080&fit=crop",
-        alt: "Costa Rica tropical landscape",
-        credit: "Pura Vida"
+        url: "assets/images/two-toed-sloth.jpg",
+        alt: "Two-toed sloth in Costa Rica",
+        credit: "Two-Toed Sloth - Cahuita"
     }
 ];
 
@@ -44,15 +45,15 @@ function preloadImages() {
 function rotateHeroImage() {
     const hero = document.querySelector('.hero');
     if (!hero) return;
-    
+
     // Fade out
     hero.style.opacity = '0.7';
-    
+
     setTimeout(() => {
         // Change image
         const currentImage = heroImages[currentImageIndex];
-        hero.style.backgroundImage = `linear-gradient(135deg, rgba(0,168,107,0.9) 0%, rgba(0,100,80,0.9) 100%), url('${currentImage.url}')`;
-        
+        hero.style.backgroundImage = `linear-gradient(135deg, rgba(0,168,107,0.7) 0%, rgba(0,80,60,0.8) 100%), url('${currentImage.url}')`;
+
         // Update alt text (for accessibility)
         let altText = document.getElementById('hero-alt-text');
         if (!altText) {
@@ -62,10 +63,16 @@ function rotateHeroImage() {
             hero.appendChild(altText);
         }
         altText.textContent = currentImage.alt;
-        
+
+        // Update the credit chip if present
+        const creditEl = document.getElementById('hero-credit');
+        if (creditEl) {
+            creditEl.textContent = currentImage.credit;
+        }
+
         // Fade in
         hero.style.opacity = '1';
-        
+
         // Move to next image
         currentImageIndex = (currentImageIndex + 1) % heroImages.length;
     }, 500);
@@ -75,14 +82,14 @@ function rotateHeroImage() {
 function initHeroRotator() {
     // Preload images
     preloadImages();
-    
+
     // Set initial image
     rotateHeroImage();
-    
+
     // Rotate every 8 seconds
     rotationInterval = setInterval(rotateHeroImage, 8000);
-    
-    console.log('🦜 Hero rotator initialized - 5 wildlife images');
+
+    console.log('🦜 Hero rotator initialized - 5 wildlife images (real CR species)');
 }
 
 // Pause rotation on user interaction (save battery)
